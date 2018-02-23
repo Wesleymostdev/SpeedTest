@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SpeedtestComponent } from './speedtest/speedtest.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SpeedtestComponent
   ],
   imports: [
     BrowserModule
